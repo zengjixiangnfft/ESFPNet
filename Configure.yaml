@@ -1,0 +1,19 @@
+dataset:
+
+  train_Kvasir_dataset : ./Endoscope-WL/TrainDataset/Kvasir/
+  train_CVC-ClinicDB_dataset : ./Endoscope-WL/TrainDataset/CVC-ClinicDB/
+
+  test_CVC-300_img : ./Endoscope-WL/TestDataset/CVC-300/images/
+  test_CVC-300_label : ./Endoscope-WL/TestDataset/CVC-300/masks/
+
+  test_CVC-ClinicDB_img : ./Endoscope-WL/TestDataset/CVC-ClinicDB/images/
+  test_CVC-ClinicDB_label : ./Endoscope-WL/TestDataset/CVC-ClinicDB/masks/
+
+  test_CVC-ColonDB_img : ./Endoscope-WL/TestDataset/CVC-ColonDB/images/
+  test_CVC-ColonDB_label : ./Endoscope-WL/TestDataset/CVC-ColonDB/masks/
+
+  test_ETIS-LaribPolypDB_img : ./Endoscope-WL/TestDataset/ETIS-LaribPolypDB/images/
+  test_ETIS-LaribPolypDB_label : ./Endoscope-WL/TestDataset/ETIS-LaribPolypDB/masks/
+
+  test_Kvasir_img : ./Endoscope-WL/TestDataset/Kvasir/images/
+  test_Kvasir_label : ./Endoscope-WL/TestDataset/Kvasir/masks/
