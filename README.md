@@ -37,3 +37,7 @@ pip install pyyaml
 ```
 conda install pillow numpy matplotlib
 ```
+- Install Jupyter-Notebook to run .ipynb file
+```
+conda install -c anaconda jupyter
+```
