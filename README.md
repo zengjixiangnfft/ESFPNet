@@ -41,3 +41,33 @@ conda install pillow numpy matplotlib
 ```
 conda install -c anaconda jupyter
 ```
+### Dataset
+- Download the training and testing dataset from this link: [Experiment Dataset](https://drive.google.com/drive/folders/1FneOIY5OC0gaIHceBqYXqj5GCdutcLfv?usp=sharing)
+- Extract the folders and copy them under "Endoscope-WL"
+- The training and testing dataset are ordered as follows in "Endoscope-WL":
+```
+|-- TrainDataset
+|   |-- CVC-ClinicDB
+|   |   |-- images
+|   |   |-- masks
+|   |-- Kvasir
+|       |-- images
+|       |-- masks
+
+|-- TestDataset
+|   |-- CVC-300
+|   |   |-- images
+|   |   |-- masks
+|   |-- CVC-ClinicDB
+|   |   |-- images
+|   |   |-- masks
+|   |-- CVC-ColonDB
+|   |   |-- images
+|   |   |-- masks
+|   |-- ETIS-LaribPolypDB
+|   |   |-- images
+|   |   |-- masks
+|   |-- Kvasir
+|       |-- images
+|       |-- masks
+```
