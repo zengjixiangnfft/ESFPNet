@@ -71,3 +71,7 @@ conda install -c anaconda jupyter
 |       |-- images
 |       |-- masks
 ```
+- The default dataset paths can be changed in "Configure.yaml"
+- To randomly split the CVC-ClincDB or Kvasir dataset, set "if_renew = True" in "ESFPNet_Endoscope_Learning_Ability.ipynb"
+- To repeat generate the splitting dataset, previous generated folder shold be detelted first
+- To reuse the splitting dataset without generating a new dataset, set "if_renew = False"
