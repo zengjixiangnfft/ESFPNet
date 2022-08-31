@@ -12,3 +12,32 @@ Official Implementation of "ESFPNet: efficient deep learning architecture for re
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/esfpnet-efficient-deep-learning-architecture/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=esfpnet-efficient-deep-learning-architecture)
 
 ## Architecture of ESFPNet
+
+<div align=center><img src="https://github.com/dumyCq/ESFPNet/blob/main/Figures/Network.jpg" width="1000" height="550" alt="Result"/></div>
+
+## Installation & Usage
+### Enviroment (Python 3.8)
+- Install Pytorch:
+```
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+```
+- Install image reading and writting library:
+```
+conda install -c conda-forge imageio
+```
+- Install image processing library:
+```
+pip install scikit-image
+```
+- Install library for parsing and emitting YAML:
+```
+pip install pyyaml
+```
+- Install other packages:
+```
+conda install pillow numpy matplotlib
+```
+- Install Jupyter-Notebook to run .ipynb file
+```
+conda install -c anaconda jupyter
+```
