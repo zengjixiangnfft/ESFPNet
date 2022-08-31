@@ -43,8 +43,8 @@ conda install -c anaconda jupyter
 ```
 ### Dataset
 - Download the training and testing dataset from this link: [Experiment Dataset](https://drive.google.com/drive/folders/1FneOIY5OC0gaIHceBqYXqj5GCdutcLfv?usp=sharing)
-- Extract the folders and copy them under "Endoscope-WL"
-- The training and testing dataset are ordered as follows in "Endoscope-WL":
+- Extract the folders and copy them under "Endoscope-WL" folder
+- The training and testing dataset are ordered as follows in "Endoscope-WL" folder:
 ```
 |-- TrainDataset
 |   |-- CVC-ClinicDB
@@ -75,3 +75,15 @@ conda install -c anaconda jupyter
 - To randomly split the CVC-ClincDB or Kvasir dataset, set "if_renew = True" in "ESFPNet_Endoscope_Learning_Ability.ipynb"
 - To repeat generate the splitting dataset, previous generated folder shold be detelted first
 - To reuse the splitting dataset without generating a new dataset, set "if_renew = False"
+### Pretrained model
+- Download the pretrained Mixtransformer from this link: [Pretrained Model](https://drive.google.com/drive/folders/1FLtIfDHDaowqyF_HhmORFMlRzCpB94hV?usp=sharing)
+- Put the pretrained models under "Pretrained" folder
+### Citation
+```
+@article{chang2022esfpnet,
+  title={ESFPNet: efficient deep learning architecture for real-time lesion segmentation in autofluorescence bronchoscopic video},
+  author={Chang, Qi and Ahmad, Danish and Toth, Jennifer and Bascom, Rebecca and Higgins, William E},
+  journal={arXiv preprint arXiv:2207.07759},
+  year={2022}
+}
+```
