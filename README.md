@@ -79,6 +79,7 @@ conda install -c anaconda jupyter
 - Download the pretrained Mixtransformer from this link: [Pretrained Model](https://drive.google.com/drive/folders/1FLtIfDHDaowqyF_HhmORFMlRzCpB94hV?usp=sharing)
 - Put the pretrained models under "Pretrained" folder
 ### Citation
+If you think this paper helps, please cite:
 ```
 @article{chang2022esfpnet,
   title={ESFPNet: efficient deep learning architecture for real-time lesion segmentation in autofluorescence bronchoscopic video},
@@ -86,4 +87,19 @@ conda install -c anaconda jupyter
   journal={arXiv preprint arXiv:2207.07759},
   year={2022}
 }
+```
+Since the training of MixTransformer based network requires a good GPU.
+One helpful state-of-the-art work compared in this paper without using MixTransformer backbone is [CARANet](https://github.com/AngeLouCN/CaraNet)
+If you also think this work helps, please cite:
+```
+@inproceedings{lou2021caranet,
+author = {Ange Lou and Shuyue Guan and Hanseok Ko and Murray H. Loew},
+title = {{CaraNet: context axial reverse attention network for segmentation of small medical objects}},
+volume = {12032},
+booktitle = {Medical Imaging 2022: Image Processing},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {81 -- 92},
+year = {2022},
+doi = {10.1117/12.2611802}}
 ```
